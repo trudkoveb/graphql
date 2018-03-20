@@ -1,0 +1,88 @@
+.wrapper
+    width: 940px
+    margin: 0 auto
+    @media (#{$max_tablets})
+        width: auto
+
+
+// Common
+
+section, article, aside
+    @media (#{$max_tablets})
+        padding-left: 10px
+        padding-right: 10px
+
+h1, h2, p, span, code
+    font-family: $font-reg
+
+h1
+    margin-bottom: 30px
+    font-size: 2.3rem
+    line-height: 2.6rem
+
+h2
+    color: $dark-color
+    font-size: 2rem
+    line-height: 2.4rem
+    text-align: center
+
+ul
+  padding: 0
+  margin: 0
+
+a, input, button
+  outline: none
+
+a
+    text-decoration: none
+    font-family: $font-reg
+
+a.button
+    color: $light-color
+    border: 1px solid  $light-color
+    border-radius: 3px
+    padding: 15px 30px
+    font-size: 1rem
+    line-height: 1.2rem
+
+a.link
+    border-bottom: 1px solid  $default-color
+    display: inline-block
+    line-height: 1.4rem
+
+// Common classes
+
+.italic
+    font-style: italic
+
+.bold
+    font-weight: bold
+
+.default-color
+    color: $default-color
+
+.black
+    color: $dark-color
+
+.white
+    color: $light-color
+
+// For tag code
+code
+    padding: 20px
+    display: block
+    width: 100%
+    background-color: $grey-bg
+    line-height: 1.6rem
+    .green
+        color: #008080
+    .blue
+        color: #0086B3
+    .grey
+        color: #998
+    .violet
+        color: #990073
+    .indent
+        padding-left: 15px
+
+
